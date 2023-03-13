@@ -101,3 +101,52 @@ a {
 .bg-gradiente {
   background: var(--cor-e-gradiente);
 }
+
+.mb-4 {
+  margin-bottom: var(--mb-4);
+}
+.mb-8 {
+  margin-bottom: var(--mb-8);
+}
+.mb-12 {
+  margin-bottom: var(--mb-12);
+}
+.mb-16 {
+  margin-bottom: var(--mb-16);
+}
+.mb-20 {
+  margin-bottom: var(--mb-20);
+}
+.mb-24 {
+  margin-bottom: var(--mb-24);
+}
+.mb-32 {
+  margin-bottom: var(--mb-32);
+}
+.mb-36 {
+  margin-bottom: var(--mb-36);
+}
+.mb-40 {
+  margin-bottom: var(--mb-40);
+}
+.mb-48 {
+  margin-bottom: var(--mb-48);
+}
+.mb-60 {
+  margin-bottom: var(--mb-60);
+}
+.mb-72 {
+  margin-bottom: var(--mb-72);
+}
+.mb-80 {
+  margin-bottom: var(--mb-80);
+}
+.mb-120 {
+  margin-bottom: var(--mb-120);
+}
+.mb-160 {
+  margin-bottom: var(--mb-160);
+}
+.mb-200 {
+  margin-bottom: var(--mb-200);
+}
