@@ -49,4 +49,19 @@
   border: none;
   border-radius: 4px;
   padding: 0.25rem;
+  background: var(--cor-b-branco) no-repeat url("../../assets/zoom-out.svg")
+    calc(100% - 8px) 50%;
+  background-size: 6%;
+}
+
+@media (max-width: 600px) {
+  .login-cadastro {
+    font: var(--font-2-s);
+  }
+}
+
+@media (max-width: 450px) {
+  .login-cadastro {
+    display: none;
+  }
 }
