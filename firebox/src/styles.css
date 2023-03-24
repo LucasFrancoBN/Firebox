@@ -3,6 +3,7 @@
 html {
   /* COR BASE */
   --cor-b-12: #000;
+  --cor-bg: #070707
   --cor-b-11: #121212;
   --cor-b-10: #2f2f2f;
   --cor-b-9: #404040;
@@ -62,6 +63,7 @@ html {
   --font-2-s: 400 1rem/1.5 "Inter", sans-serif;
   --font-1-xs: 500 .875rem/1.5 "Quicksand", sans-serif;
   --font-2-xs: 400 .875rem/1.5 "Inter", sans-serif;
+  --font-2-xxs: 400 .75rem/1.5 "Inter", sans-serif;
 }
 
 *,
@@ -70,6 +72,10 @@ html {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+body {
+  background-color: #070707;
 }
 
 ul,
@@ -87,6 +93,7 @@ img {
 }
 
 a {
+  display: block;
   text-decoration: none;
   color: inherit;
 }
@@ -136,12 +143,32 @@ a {
   background-color: var(--cor-b-bg-preto);
 }
 
+.bg-branco {
+  background-color: var(--cor-b-branco);
+}
+
+.bg-home {
+  background-color: var(--cor-b-11);
+}
+
 .bg-gradiente {
   background: var(--cor-e-gradiente);
 }
 
 .cor-texto {
   color: var(--cor-b-11);
+}
+
+.cor-nome-produto {
+  color: var(--cor-b-10);
+}
+
+.cor-e-5 {
+  color: var(--cor-e-5);
+}
+
+.cor-b-8 {
+  color: var(--cor-b-8);
 }
 
 .mb-4 {

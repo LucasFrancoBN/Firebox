@@ -5,6 +5,10 @@
   padding: 1rem 0;
 }
 
+.header nav {
+  justify-self: end;
+}
+
 @media (max-width: 500px) {
   .header {
     gap: 1rem;
