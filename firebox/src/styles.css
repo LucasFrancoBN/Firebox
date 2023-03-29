@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter&family=Quicksand:wght@500&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Inter&family=Quicksand:wght@500;600&display=swap');
 
 html {
   /* COR BASE */
@@ -58,6 +58,7 @@ html {
   --font-1-l: 500 1.5rem/1.5 "Quicksand", sans-serif;
   --font-2-l: 400 1.5rem/1.5 "Inter", sans-serif;
   --font-1-m: 500 1.125rem/1.5 "Quicksand", sans-serif;
+  --font-1-m-b: 600 1.125rem/1.5 "Quicksand", sans-serif;
   --font-2-m: 400 1.125rem/1.5 "Inter", sans-serif;
   --font-1-s: 500 1rem/1.5 "Quicksand", sans-serif;
   --font-2-s: 400 1rem/1.5 "Inter", sans-serif;
@@ -98,6 +99,24 @@ a {
   color: inherit;
 }
 
+label {
+  display: block;
+}
+
+input {
+  display: block;
+  outline: none;
+  padding: 0.5rem;
+  border: 2px solid rgba(155, 155, 155, 0.2);
+  background-color: rgba(155, 155, 155, 0.1);
+  border-radius: 4px;
+}
+
+input:focus {
+  border: 2px solid var(--cor-e-5);
+  background-color: var(--cor-b-branco);
+}
+
 .font-1-xxl {
   font: var(--font-1-xxl)
 }
@@ -112,6 +131,9 @@ a {
 }
 .font-1-m {
   font: var(--font-1-m)
+}
+.font-1-m-b {
+  font: var(--font-1-m-b)
 }
 .font-2-m {
   font: var(--font-2-m)
@@ -218,4 +240,13 @@ a {
 }
 .mb-200 {
   margin-bottom: var(--mb-200);
+}
+
+.button {
+  text-transform: uppercase;
+  background: var(--cor-e-gradiente);
+  border: 2px solid #d96a0e;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
 }
