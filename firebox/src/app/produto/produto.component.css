@@ -1,0 +1,40 @@
+.produto-wrapper {
+  margin-top: 7.5rem;
+  padding: 2.5rem 5rem;
+  border-radius: 4px;
+}
+
+.produto-info {
+  display: grid;
+  grid-template-columns: 7fr 4fr;
+  gap: 3.75rem 6.5625rem;
+}
+
+.produto-titulo {
+  grid-column: 1 / -1;
+}
+
+.produto-image-wrapper {
+  display: flex;
+  gap: 1.25rem;
+}
+
+.produto-image-secundaria img {
+  cursor: pointer;
+}
+
+.produto-box {
+  padding: 1.25rem;
+  border-radius: 4px;
+  border: 2px solid var(--cor-b-2);
+  align-self: start;
+}
+
+.produto-box .button {
+  display: flex;
+  gap: 0.25rem;
+}
+
+.produto-box .button img {
+  transform: rotate(30deg);
+}
