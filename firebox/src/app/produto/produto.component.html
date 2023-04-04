@@ -2,16 +2,16 @@
   <h1 class="font-1-xxl mb-12 produto-titulo">Iphone 14</h1>
   <div class="produto-info">
     <div class="produto-image-wrapper">
-      <figure class="image-principal"><img src="../../assets/image-produto-principal.png" alt=""></figure>
+      <figure class="image-principal"><img src="{{fotoPrincipal}}" alt="" width="490" height="387"></figure>
       <div class="produto-image-secundaria">
-        <figure class="image-secundaria mb-12"><img src="../../assets/image-secundaria.png" alt=""></figure>
-        <figure class="image-secundaria mb-12"><img src="../../assets/image-secundaria-2.png" alt=""></figure>
-        <figure class="image-secundaria mb-12"><img src="../../assets/image-produto-secundaria-3.png" alt=""></figure>
+        <figure class="image-secundaria mb-12"><img src="{{fotos[0]}}" alt="" (click)="mudarFotoPrincipal(0)" width="65" height="80"></figure>
+        <figure class="image-secundaria mb-12"><img src="{{fotos[1]}}" alt="" (click)="mudarFotoPrincipal(1)" width="65" height="80"></figure>
+        <figure class="image-secundaria mb-12"><img src="{{fotos[2]}}" alt="" (click)="mudarFotoPrincipal(2)" width="65" height="80"></figure>
       </div>
     </div>
     <div class="produto-box bg-b-1">
       <p class="produto-vendedor font-2-s mb-8">Firebox</p>
-      <h2 class="font-2-xl mb-12">R$ 7.250,00</h2>
+      <h2 class="font-2-xl mb-12 produto-preco">R$ 7.250,00</h2>
       <p class="font-2-xs mb-8">Entre em contato com o vendedor e finalize a sua compra agora!</p>
       <button class="button font-2-s">Chat <img src="../../assets/fogo-de-fundo-home.svg" alt="" width="24"></button>
     </div>
