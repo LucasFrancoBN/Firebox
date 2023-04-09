@@ -91,7 +91,21 @@
 
 @media (max-width: 600px) {
   .header nav .login-cadastro {
-    display: none;
+    display: block;
+    position: absolute;
+    top: 95px;
+    left: 0;
+    padding: 1rem;
+    background: var(--cor-e-gradiente-invertido);
+    width: 100vw;
+    animation: toDown 0.3s forwards;
+    overflow: hidden;
+  }
+
+  .header nav .login-cadastro li:not(:last-child) {
+    margin-bottom: var(--mb-12);
+    padding-bottom: var(--mb-12);
+    border-bottom: 2px solid var(--cor-e-6);
   }
 }
 
@@ -107,7 +121,6 @@
     border: none;
     transition: all 0.5s ease-in-out;
     font-size: 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 600;
     display: flex;
     align-items: center;
@@ -124,5 +137,16 @@
 
   .btn:focus {
     outline: none;
+  }
+}
+
+@keyframes toDown {
+  from {
+    opacity: 0;
+    transform: translateY(-25px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
 }

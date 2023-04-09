@@ -33,6 +33,7 @@ html {
   --cor-e-2: #ffc65e;
   --cor-e-1: #ffda74;
   --cor-e-gradiente: linear-gradient(180deg, #FF8C00, #F0740D);
+  --cor-e-gradiente-invertido: linear-gradient(180deg, #F0740D, #FF8C00 );
 
   /* ESPACAMENTO */
   --mb-4: 4px;

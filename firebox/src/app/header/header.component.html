@@ -6,7 +6,7 @@
     </a>
     <input class="font-1-m barra-pesquisa" type="text" placeholder="barra pesquisa">
     <nav>
-      <button class="btn">
+      <button class="btn" (click)="menuMobileIsOpen = !menuMobileIsOpen">
         <span class="icon">
           <svg viewBox="0 0 175 80" width="40" height="40">
             <rect width="80" height="15" fill="#262626" rx="10"></rect>
@@ -15,9 +15,9 @@
           </svg>
         </span>
       </button>
-      <ul class="font-2-l cor-texto login-cadastro">
-        <li><a routerLink="/login">Login</a></li>
-        <li><a routerLink="/cadastro">Cadastro</a></li>
+      <ul class="font-2-l cor-texto login-cadastro" *ngIf="menuMobileIsOpen">
+        <li class="mb-12"><a routerLink="/login">Login</a></li>
+        <li class="mb-12"><a routerLink="/cadastro">Cadastro</a></li>
       </ul>
     </nav>
   </div>

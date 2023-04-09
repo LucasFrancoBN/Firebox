@@ -7,4 +7,9 @@ import { Component, EventEmitter, Input, Output } from '@angular/core';
 })
 export class HeaderComponent {
   @Input() showHome!: boolean;
+  menuMobileIsOpen = true;
+
+  menuMobile() {
+    this.menuMobileIsOpen = !this.menuMobileIsOpen;
+  }
 }
